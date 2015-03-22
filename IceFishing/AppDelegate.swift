@@ -15,14 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        FBLoginView.self
+        FBProfilePictureView.self
+        
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
         
-        let viewController: ViewController = ViewController(nibName: "ViewController", bundle: nil)
+//        let viewController: ViewController = ViewController(nibName: "ViewController", bundle: nil)
+//        self.window!.rootViewController = viewController
+        
+        var viewController: LoginViewController = LoginViewController(nibName: "LoginViewController", bundle: nil)
         self.window!.rootViewController = viewController
+
         
         return true
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: NSString?, annotation: AnyObject) -> Bool {
+        var wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        return wasHandled
     }
 
     func applicationWillResignActive(application: UIApplication) {

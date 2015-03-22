@@ -13,6 +13,16 @@
 		1D72D9D11AACC4C0007822B0 /* IceFishingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D72D9D01AACC4C0007822B0 /* IceFishingTests.swift */; };
 		1D72D9DE1AACC6AA007822B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D72D9DC1AACC6AA007822B0 /* ViewController.swift */; };
 		1D72D9DF1AACC6AA007822B0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D72D9DD1AACC6AA007822B0 /* ViewController.xib */; };
+		6D54C2A71ABF5AAE007648A5 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D54C2A41ABF5A77007648A5 /* FacebookSDK.framework */; };
+		6D54C2B91ABF5C0C007648A5 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54C2B01ABF5C0C007648A5 /* EditProfileViewController.swift */; };
+		6D54C2BA1ABF5C0C007648A5 /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C2B11ABF5C0C007648A5 /* EditProfileViewController.xib */; };
+		6D54C2BC1ABF5C0C007648A5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54C2B31ABF5C0C007648A5 /* ProfileViewController.swift */; };
+		6D54C2BD1ABF5C0C007648A5 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C2B41ABF5C0C007648A5 /* ProfileViewController.xib */; };
+		6D54C2BE1ABF5C0C007648A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54C2B51ABF5C0C007648A5 /* User.swift */; };
+		6D54C2C01ABF5C81007648A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54C2BF1ABF5C81007648A5 /* LoginViewController.swift */; };
+		6D54C2C51ABF7A55007648A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C2C11ABF7A55007648A5 /* LaunchScreen.xib */; };
+		6D54C2C61ABF7A55007648A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C2C31ABF7A55007648A5 /* Main.storyboard */; };
+		6D54C2C81ABF7D39007648A5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D54C2C71ABF7D39007648A5 /* LoginViewController.xib */; };
 		BA257E2B1ABA3FE200D939B0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA257E2A1ABA3FE200D939B0 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +69,17 @@
 		1D72D9DC1AACC6AA007822B0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D72D9DD1AACC6AA007822B0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		1D72DB671AAD0B97007822B0 /* Alamofire-SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Alamofire-SwiftyJSON.xcodeproj"; path = "vendor/Alamofire-SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
+		6D54C2A41ABF5A77007648A5 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		6D54C2AF1ABF5C0C007648A5 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../../Desktop/iOS/ice-fishing-profile/Profile/Bridging-Header.h"; sourceTree = "<group>"; };
+		6D54C2B01ABF5C0C007648A5 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditProfileViewController.swift; path = "../../Desktop/iOS/ice-fishing-profile/Profile/EditProfileViewController.swift"; sourceTree = "<group>"; };
+		6D54C2B11ABF5C0C007648A5 /* EditProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditProfileViewController.xib; path = "../../Desktop/iOS/ice-fishing-profile/Profile/EditProfileViewController.xib"; sourceTree = "<group>"; };
+		6D54C2B31ABF5C0C007648A5 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = "../../Desktop/iOS/ice-fishing-profile/Profile/ProfileViewController.swift"; sourceTree = "<group>"; };
+		6D54C2B41ABF5C0C007648A5 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileViewController.xib; path = "../../Desktop/iOS/ice-fishing-profile/Profile/ProfileViewController.xib"; sourceTree = "<group>"; };
+		6D54C2B51ABF5C0C007648A5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../Desktop/iOS/ice-fishing-profile/Profile/User.swift"; sourceTree = "<group>"; };
+		6D54C2BF1ABF5C81007648A5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../Desktop/iOS/ice-fishing-profile/LoginViewController.swift"; sourceTree = "<group>"; };
+		6D54C2C21ABF7A55007648A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../Desktop/iOS/ice-fishing-profile/Profile/Base.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
+		6D54C2C41ABF7A55007648A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Desktop/iOS/ice-fishing-profile/Profile/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		6D54C2C71ABF7D39007648A5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = "../../Desktop/iOS/ice-fishing-profile/LoginViewController.xib"; sourceTree = "<group>"; };
 		BA257E271ABA3FE200D939B0 /* IceFishing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceFishing-Bridging-Header.h"; sourceTree = "<group>"; };
 		BA257E291ABA3FE200D939B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BA257E2A1ABA3FE200D939B0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -69,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D54C2A71ABF5AAE007648A5 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,13 +142,15 @@
 		1D72D9B71AACC4C0007822B0 /* IceFishing */ = {
 			isa = PBXGroup;
 			children = (
-				1DE932921AAD12A700AD3BF0 /* Vendor */,
 				1D72D9BA1AACC4C0007822B0 /* AppDelegate.swift */,
+				6D54C2A81ABF5BE2007648A5 /* Profile */,
+				1DE932921AAD12A700AD3BF0 /* Vendor */,
 				1D046D8C1AB6953600D0354B /* Controllers */,
 				1D046D8A1AB6951C00D0354B /* XIBs */,
 				1D72D9C11AACC4C0007822B0 /* Images.xcassets */,
 				1D72D9C31AACC4C0007822B0 /* LaunchScreen.xib */,
 				1D72D9B81AACC4C0007822B0 /* Supporting Files */,
+				6D54C2A61ABF5A87007648A5 /* Frameworks */,
 			);
 			path = IceFishing;
 			sourceTree = "<group>";
@@ -171,6 +195,32 @@
 				1DE9329D1AAD12AB00AD3BF0 /* AlamofireSwiftyJSONTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6D54C2A61ABF5A87007648A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D54C2A41ABF5A77007648A5 /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6D54C2A81ABF5BE2007648A5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6D54C2C71ABF7D39007648A5 /* LoginViewController.xib */,
+				6D54C2C11ABF7A55007648A5 /* LaunchScreen.xib */,
+				6D54C2C31ABF7A55007648A5 /* Main.storyboard */,
+				6D54C2BF1ABF5C81007648A5 /* LoginViewController.swift */,
+				6D54C2AF1ABF5C0C007648A5 /* Bridging-Header.h */,
+				6D54C2B01ABF5C0C007648A5 /* EditProfileViewController.swift */,
+				6D54C2B11ABF5C0C007648A5 /* EditProfileViewController.xib */,
+				6D54C2B31ABF5C0C007648A5 /* ProfileViewController.swift */,
+				6D54C2B41ABF5C0C007648A5 /* ProfileViewController.xib */,
+				6D54C2B51ABF5C0C007648A5 /* User.swift */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		BA257E251ABA3FBC00D939B0 /* SWRevealViewController */ = {
@@ -287,6 +337,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D54C2C81ABF7D39007648A5 /* LoginViewController.xib in Resources */,
+				6D54C2BD1ABF5C0C007648A5 /* ProfileViewController.xib in Resources */,
+				6D54C2BA1ABF5C0C007648A5 /* EditProfileViewController.xib in Resources */,
+				6D54C2C61ABF7A55007648A5 /* Main.storyboard in Resources */,
+				6D54C2C51ABF7A55007648A5 /* LaunchScreen.xib in Resources */,
 				1D72D9C51AACC4C0007822B0 /* LaunchScreen.xib in Resources */,
 				1D72D9DF1AACC6AA007822B0 /* ViewController.xib in Resources */,
 				1D72D9C21AACC4C0007822B0 /* Images.xcassets in Resources */,
@@ -307,9 +362,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D54C2BC1ABF5C0C007648A5 /* ProfileViewController.swift in Sources */,
 				1D72D9DE1AACC6AA007822B0 /* ViewController.swift in Sources */,
 				1D72D9BB1AACC4C0007822B0 /* AppDelegate.swift in Sources */,
+				6D54C2C01ABF5C81007648A5 /* LoginViewController.swift in Sources */,
+				6D54C2B91ABF5C0C007648A5 /* EditProfileViewController.swift in Sources */,
 				BA257E2B1ABA3FE200D939B0 /* SWRevealViewController.m in Sources */,
+				6D54C2BE1ABF5C0C007648A5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +403,22 @@
 			);
 			name = LaunchScreen.xib;
 			path = .;
+			sourceTree = "<group>";
+		};
+		6D54C2C11ABF7A55007648A5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D54C2C21ABF7A55007648A5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6D54C2C31ABF7A55007648A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D54C2C41ABF7A55007648A5 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,6 +508,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/manuelarios/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "IceFishing/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +525,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/manuelarios/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "IceFishing/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
